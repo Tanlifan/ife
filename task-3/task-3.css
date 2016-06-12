@@ -1,0 +1,46 @@
+body{
+    padding:20px;
+}
+#main{
+    padding:20px;
+    margin:0 auto;
+    background-color: #eee;
+    border:1px solid #999;
+    overflow: auto;
+}
+#middle{
+    background-color: white;
+    border:1px solid #999;
+    padding:20px;
+    margin:0 140px 0 220px;
+}
+#left{
+    width:160px;
+    background-color: white;
+    border:1px solid #999;
+    padding:20px;
+    float:left;
+    margin-left:-240px;
+    margin-top:-20px;
+}
+
+#left span{
+    display: block;
+    float:right;
+    text-align: center;
+}
+#right{
+    background-color: white;
+    border:1px solid #999;
+    width:120px;
+    text-align: center;
+    float:right;
+    margin-top:-20px;
+    margin-right:-160px;
+}
+#right img{
+    display: block;
+    width:80px;
+    height:80px;
+    margin: 20px;
+}
