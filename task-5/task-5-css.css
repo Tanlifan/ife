@@ -1,0 +1,96 @@
+*{
+    margin:0;
+    padding:0;
+    line-height: 2em;
+}
+body{
+    background-color: #ccc;
+}
+#header{
+    width:100%;
+    background-color: black;
+    color:white;
+    height:100px;
+    overflow: hidden;
+    line-height: 100px;
+}
+#header h1{
+    display: block;
+    width: 270px;
+    text-indent: 2em;
+    float:left;
+}
+#header ul{
+    float:right;
+    list-style: none;
+}
+#header li{
+    float:left;
+    width:60px;
+    text-align: center;
+}
+#header a{
+    color:white;
+    text-decoration: none;
+}
+#main{
+    float: left;
+    margin:20px;
+    margin-right:550px;
+    padding: 10px;
+    background-color: white;
+    min-width: 440px;
+    line-height: 2em;
+}
+#box1{
+    padding: 10px;
+}
+#box5{
+    position:absolute;
+    top:120px;
+    right: 10px;
+    width:500px;
+    background-color: white;
+    padding: 10px;
+}
+#form{
+    height:450px;
+    position:relative;
+    border:0;
+}
+#left{
+    width:35%;
+    position:absolute;
+    top:40px;
+    left:0px;
+    text-align:right;
+}
+#right{
+    width:64%;
+    position:absolute;
+    top:40px;
+    left:36%;
+}
+#right p{
+    font-size:80%;
+    font-weight: bold;
+    line-height: 250%;
+    color:#9d9d9d;
+}
+#right textarea{
+    width: 90%;
+}
+#submit{
+    width:100%;
+    margin:0 auto;
+    position:absolute;
+    bottom:3px;
+}
+#footer{
+    width:100%;
+    height: 50px;
+    background-color: black;
+    color:white;
+    text-align: center;
+    overflow: hidden;
+}
